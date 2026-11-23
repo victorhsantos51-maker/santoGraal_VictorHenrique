@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: comic sans-serif;
+    font-size: 20px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background: orangered;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.meio{
+    display: flex;
+    flex: 1
+}
+
+.left{
+    width: 25%;
+    min-height: 770px;
+    background: rgb(0, 162, 255);
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+main{
+    background: darkslateblue;
+    width: 50%;
+    min-height: 770px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.right{
+    width: 25%;
+    min-height: 770px;
+    background: green;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: deeppink;
+}
